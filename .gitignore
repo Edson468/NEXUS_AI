@@ -1,0 +1,31 @@
+# Python & Ambientes Virtuais
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variáveis de Ambiente e Chaves Secretas (CRÍTICO)
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Dados e Vetores do RAG
+backend/data/
+
+# Frontend (Node / Vite)
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.npm
+*.log
+
+# IDEs e Sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
